@@ -6,8 +6,7 @@
 1. [📖 Descripción](#-1-descripción)  
 2. [🛠️ Instalación](#-2-instalación)  
 3. [🖥️ Uso](#-3-uso)  
-   - [💻 Interfaz de Usuario](#-interfaz-de-usuario)  
-   - [🖼️ Capturas de Pantalla](#-capturas-de-pantalla)  
+   - [💻 Interfaz de Usuario](#-interfaz-de-usuario)   
    - [✍️ Ejemplos de Historias Generadas](#-ejemplos-de-historias-generadas)  
 4. [🛠️ Configuración Avanzada](#-4-configuración-avanzada)  
 5. [📜 Licencia](#-5-licencia)  
@@ -18,16 +17,16 @@
 
 ## 📖 1. Descripción
 
-**Generador de Historias Germangarest** es una aplicación web interactiva que utiliza inteligencia artificial para crear historias únicas y cautivadoras. Con una interfaz amigable basada en Gradio, permite a los usuarios personalizar personajes, escenarios, acciones clave y estilos narrativos para generar relatos adaptados a sus preferencias. Ideal para escritores, educadores o cualquier persona que busque inspiración creativa.
+**Generador de historias germangarest** es una aplicación web interactiva hecha con Gradio, que utiliza modelos de IA en local para crear historias únicas y cautivadoras. Con una interfaz amigable, permite a los usuarios personalizar personajes, escenarios, acciones clave y estilos narrativos para generar relatos adaptados a sus preferencias. Ideal para cualquier persona que busque inspiración creativa.
 
 ### 🚀 Características Principales
 
-- **Modelos de IA Variados**: Selecciona entre múltiples modelos de lenguaje para adaptar el estilo y la coherencia de la historia.
-- **Controles Creativos**: Ajusta parámetros como la temperatura, diversidad (Top-P) y penalización de repetición para personalizar la generación.
-- **Longitud Personalizable**: Elige entre historias cortas, medias o largas según tus necesidades.
-- **Incorporación de Diálogos**: Decide si deseas incluir conversaciones naturales entre los personajes.
-- **Descarga Fácil**: Guarda tus historias generadas en formato TXT directamente en tu carpeta de Descargas.
-- **Guía de Uso Integrada**: Accede a una guía detallada para aprovechar al máximo todas las funcionalidades.
+- **Modelos de IA variados**: selecciona entre múltiples modelos para adaptar el estilo y la coherencia de la historia.
+- **Controles creativos**: ajusta parámetros como la temperatura, diversidad (Top-P) y penalización de repetición para personalizar la generación.
+- **Longitud personalizable**: elige entre historias cortas, medias o largas según tus necesidades.
+- **Incorporación de diálogos**: decide si deseas incluir conversaciones naturales entre los personajes.
+- **Descarga fácil**: guarda tus historias generadas en formato TXT directamente en tu carpeta de *descargas*.
+- **Guía de uso integrada**: accede a una guía detallada para entender todas las funcionalidades.
   
 <br>
 
@@ -67,13 +66,13 @@
    API_URL=http://localhost:7860/v1/chat/completions
    ```
 
-5. **Ejecuta la Aplicación**
+5. **Ejecuta la aplicación**
    
    ```
    python app.py
    ```
 
-6. **Accede a la Aplicación**
+6. **Accede a la aplicación**
     
    Abre tu navegador y visita ```http://localhost:5000``` para comenzar a generar tus historias.
    
@@ -81,66 +80,62 @@
 
 ## 🖥️ 3. Uso
 
-### 💻 Interfaz de Usuario
+### 💻 Interfaz de usuario
 
-La interfaz de **Generador de Historias Germangarest** está dividida en dos pestañas principales:
+La interfaz de **Generador de historias germangarest** está dividida en dos pestañas principales:
 
-- **✍️ Crear Historia**
-- **ℹ️ Guía de Uso**
+- **✍️ Crear historia**
+- **ℹ️ Guía de uso**
+
+![Pestañas](assets/pestañas.png)
   
 <br>
 
-### ✍️ Crear Historia
+### ✍️ Crear historia
 
 Aquí puedes personalizar y generar tus historias. A continuación se describen los componentes principales:
 
 - **👥 Personajes**
-  - **🌟 Personaje Principal**: Nombre del protagonista (Por defecto: Germán).
-  - **👤 Personaje Secundario**: Nombre del acompañante (Por defecto: Carlos).
+  - **🌟 Personaje principal**: nombre del protagonista (Por defecto: Germán).
+  - **👤 Personaje secundario**: nombre del acompañante (Por defecto: Carlos).
 
-- **📍 Lugar y 🎯 Acción Clave**
-  - **📍 Lugar**: Escenario donde transcurre la historia (Por defecto: una playa desierta).
-  - **🎯 Acción Clave**: Evento crucial en la trama (Por defecto: practicar surf en verano).
+- **📍 Lugar y 🎯 acción clave**
+  - **📍 Lugar**: escenario donde transcurre la historia (Por defecto: una playa desierta).
+  - **🎯 Acción clave**: evento crucial en la trama (Por defecto: practicar surf en verano).
+ 
+![Personajes](assets/personajes.png)
 
-- **🎨 Estilo de la Historia**
-  - **🤖 Modelo de IA**: Selecciona el modelo de lenguaje.
-  - **📚 Género**: Elige el género de la historia.
-  - **🌡️ Temperatura (Creatividad)**: Controla la creatividad del texto.
-  - **📏 Longitud**: Define la extensión de la historia.
+- **🎨 Estilo de la historia**
+  - **🤖 Modelo de IA**: selecciona el modelo de lenguaje.
+  - **📚 Género**: elige el género de la historia.
+  - **🌡️ Temperatura (creatividad)**: controla la creatividad del texto.
+  - **📏 Longitud**: define la extensión de la historia.
+ 
+![Estilo](assets/estilo.png)
 
-- **⚙️ Configuración Avanzada**
-  - **💬 Incluir Diálogos**: Decide si incluir conversaciones.
-  - **🎲 Diversidad (Top-P)**: Variedad del vocabulario.
-  - **🔄 Penalización de Repetición**: Evita repeticiones en el texto.
+- **⚙️ Configuración avanzada**
+  - **💬 Incluir diálogos**: decide si incluir conversaciones.
+  - **🎲 Diversidad (Top-P)**: variedad del vocabulario.
+  - **🔄 Penalización de repetición**: evita repeticiones en el texto.
+ 
+![Avanzada](assets/avanzada.png)
 
 - **Botones y Salidas**
-  - **✨ Generar Historia ✨**: Inicia la generación.
-  - **📥 Descargar historia**: Descarga la historia generada en formato TXT.
+  - **✨ Generar Historia ✨**: inicia la generación.
+  - **📥 Descargar historia**: descarga la historia generada en formato TXT.
+
+![Interfaz](assets/interfaz.png)
     
 <br>
 
-### ℹ️ Guía de Uso
+### ℹ️ Guía de uso
 
 Accede a una guía detallada sobre cómo utilizar la aplicación, incluyendo explicaciones de cada parámetro y consejos para obtener mejores resultados.
-**captura de pantalla**
+
+![Guía](assets/guia.png)
 
 <br>
 
-### 🖼️ Capturas de Pantalla
-
-#### Pantalla Principal
-
-![Pantalla Principal](assets/main_screen.png)
-
-#### Generación de Historia
-
-![Generación de Historia](assets/generate_story.png)
-
-#### Historia Generada
-
-![Historia Generada](assets/story_output.png)
-
-<br>
 
 ## ✍️ Ejemplos de Historias Generadas
 
