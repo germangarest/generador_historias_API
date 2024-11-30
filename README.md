@@ -3,10 +3,10 @@
 
 ## Índice de Contenidos
 
-1. [Descripción](#-1-descripción)  
-2. [Instalación](#-2-instalación)  
-3. [Uso](#-3-uso)  
-   - [Interfaz de Usuario](#interfaz-de-usuario)  
+1. [Descripción](#📖-1-descripción)  
+2. [Instalación](#🛠️-2-instalación)  
+3. [Uso](#🖥️-3-uso)  
+   - [Interfaz de Usuario](#💻-interfaz-de-usuario)  
    - [Capturas de Pantalla](#🖼️-capturas-de-pantalla)  
    - [Ejemplos de Historias Generadas](#✍️-ejemplos-de-historias-generadas)  
 4. [Configuración Avanzada](#-4-configuración-avanzada)  
@@ -81,7 +81,7 @@
 
 ## 🖥️ 3. Uso
 
-### Interfaz de Usuario
+### 💻 Interfaz de Usuario
 
 La interfaz de **Generador de Historias Germangarest** está dividida en dos pestañas principales:
 
