@@ -3,7 +3,7 @@
 
 ## Índice de Contenidos
 
-1. [Descripción](#-1.descripción)
+1. [Descripción](#-1.Descripción)
 2. [Instalación](#-instalación)
 3. [Uso](#-uso)
    - [Interfaz de Usuario](#interfaz-de-usuario)
