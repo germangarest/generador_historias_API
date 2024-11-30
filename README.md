@@ -233,6 +233,7 @@ Voy a usar cada uno de los 4 modelos para generar una misma historia. Así, podr
 
 - **Palabras:** 338
 - **Párrafos:** 8
+- [Historia en .txt](historiasTXT/ministral.txt)
 
 #### 2. Modelo Gemma 2 9B
 
@@ -240,6 +241,7 @@ Voy a usar cada uno de los 4 modelos para generar una misma historia. Así, podr
 
 - **Palabras:** 191
 - **Párrafos:** 6
+- [Historia en .txt](historiasTXT/gemma.txt)
 
 #### 3. Modelo Meta Llama 3.1 8B
 
@@ -247,6 +249,7 @@ Voy a usar cada uno de los 4 modelos para generar una misma historia. Así, podr
 
 - **Palabras:** 240
 - **Párrafos:** 6
+- [Historia en .txt](historiasTXT/llama.txt)
 
 #### 4. Modelo Qwen2.5 7B
 
@@ -254,6 +257,7 @@ Voy a usar cada uno de los 4 modelos para generar una misma historia. Así, podr
 
 - **Palabras:** 257
 - **Párrafos:** 7
+- [Historia en .txt](historiasTXT/qwen.txt)
 
 ---
 
