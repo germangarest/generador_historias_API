@@ -7,8 +7,8 @@
 2. [Instalación](#2-instalación)
 3. [Uso](#3-uso)
    - [Interfaz de Usuario](#interfaz-de-usuario)
-   - [Capturas de Pantalla](#-capturas-de-pantalla)
-   - [Ejemplos de Historias Generadas](#-ejemplos-de-historias-generadas)
+   - [Capturas de Pantalla](#capturas-de-pantalla)
+   - [Ejemplos de Historias Generadas](#ejemplos-de-historias-generadas)
 4. [Configuración Avanzada](#4-configuración-avanzada)
 5. [Licencia](#5-licencia)
 6. [Contribuciones](#6-contribuciones)
@@ -16,7 +16,7 @@
    
 <br>
 
-## 📖 1. Descripción
+## 📖 1 Descripción
 
 **Generador de Historias Germangarest** es una aplicación web interactiva que utiliza inteligencia artificial para crear historias únicas y cautivadoras. Con una interfaz amigable basada en Gradio, permite a los usuarios personalizar personajes, escenarios, acciones clave y estilos narrativos para generar relatos adaptados a sus preferencias. Ideal para escritores, educadores o cualquier persona que busque inspiración creativa.
 
