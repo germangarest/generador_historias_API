@@ -88,7 +88,7 @@ La interfaz de **Generador de Historias Germangarest** está dividida en dos pes
 - **ℹ️ Guía de Uso**
 <br>
 
-#### ✍️ Crear Historia
+### ✍️ Crear Historia
 
 Aquí puedes personalizar y generar tus historias. A continuación se describen los componentes principales:
 
@@ -116,9 +116,11 @@ Aquí puedes personalizar y generar tus historias. A continuación se describen 
   - **📥 Descargar historia**: Descarga la historia generada en formato TXT.    
 <br>
 
-#### ℹ️ Guía de Uso
+### ℹ️ Guía de Uso
 
 Accede a una guía detallada sobre cómo utilizar la aplicación, incluyendo explicaciones de cada parámetro y consejos para obtener mejores resultados.
+**captura de pantalla**
+<br>
 <br>
 
 ### 🖼️ Capturas de Pantalla
