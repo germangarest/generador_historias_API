@@ -82,7 +82,7 @@ Con cada historia generada, aparece una opción de descargar la historia, guard�
 
 <br>
 
-## 🛠️ 2. Instalación
+## 🛠 2. Instalación
 
 ### Requisitos previos
 
