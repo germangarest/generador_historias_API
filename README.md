@@ -22,10 +22,10 @@
 ### 🚀 Características Principales
 
 - **Modelos de IA variados**: selecciona entre 4 modelos de IA generativa: 
-    Ministral 8B Instruct
-    Gemma 2 9B
-    Meta Llama 3.1 8B
-    Qwen2.5 7B
+    - Ministral 8B Instruct
+    - Gemma 2 9B
+    - Meta Llama 3.1 8B
+    - Qwen2.5 7B
 - **Controles creativos**: ajusta parámetros como la temperatura, diversidad (Top-P) y penalización de repetición para personalizar la generación.
 - **Longitud personalizable**: elige entre historias cortas, medias o largas según tus necesidades.
 - **Incorporación de diálogos**: decide si deseas incluir conversaciones naturales entre los personajes.
@@ -66,6 +66,7 @@ El formato debe ser así:
 
 ### 🆙 Botón de descarga:
 Con cada historia generada, aparece una opción de descargar la historia, guardándose en formato .txt en la carpeta *Descargas*.
+
 ![Descarga](assets/descarga.png)
 
 <br>
