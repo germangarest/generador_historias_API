@@ -244,7 +244,7 @@ Voy a pedirle opinión a **ChatGPT o1-mini**, con el siguiente prompt:
 
 ![ChatGPT](assets/chatgpt.png)
 
-#### 💬Respuestas de ChatGPT para cada modelo
+#### 💬 Respuestas de ChatGPT para cada modelo
 
 ##### Modelo Ministral 8B Instruct
 
