@@ -16,7 +16,7 @@
 3. [🖥️ Uso](#-3-uso)
    - [💻 Interfaz de usuario](#-interfaz-de-usuario)
    - [✍️ Crear historia](#-crear-historia)
-   - [ℹ️ Guía de uso](#-guía-de-uso)
+   - [📓 Guía de uso](#-guía-de-uso)
 4. [✍️ Ejemplos de historias generadas](#-4-ejemplos-de-historias-generadas)
    - [📋 Parámetros de generación](#-parámetros-de-generación)
    - [🛠️ Modelos utilizados](#-modelos-utilizados)
@@ -175,12 +175,14 @@ Aquí puedes personalizar y generar tus historias. A continuación se describen 
 - **Botones y Salidas**
   - **✨ Generar Historia ✨**: inicia la generación.
   - **📥 Descargar historia**: descarga la historia generada en formato TXT.
+ 
+Interfaz de la aplicación web Gradio:
 
 ![Interfaz](assets/interfaz.png)
     
 <br>
 
-### ℹ Guía de uso
+### 📓 Guía de uso
 
 Accede a una guía detallada sobre cómo utilizar la aplicación, incluyendo explicaciones de cada parámetro y consejos para obtener mejores resultados.
 
