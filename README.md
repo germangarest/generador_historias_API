@@ -11,8 +11,8 @@
    - [🖋️ User Prompt usado](#-user-prompt-usado)
    - [🆙 Botón de descarga](#-botón-de-descarga)
 2. [🛠️ Instalación](#-2-instalación)
-   - [Requisitos previos](#requisitos-previos)
-   - [Pasos de instalación](#pasos-de-instalación)
+   - [❓Requisitos previos](#-requisitos-previos)
+   - [👣Pasos de instalación](#-pasos-de-instalación)
 3. [🖥️ Uso](#-3-uso)
    - [💻 Interfaz de usuario](#-interfaz-de-usuario)
    - [✍️ Crear historia](#-crear-historia)
@@ -84,13 +84,13 @@ Con cada historia generada, aparece una opción de descargar la historia, guard�
 
 ## 🛠 2. Instalación
 
-### Requisitos previos
+### ❓ Requisitos previos
 
 - **Python**
 - **Gradio**
 - **Dependencias** listadas en `requirements.txt`
 
-### Pasos de instalación
+### 👣 Pasos de instalación
 
 1. **Clona el repositorio**
 
