@@ -47,7 +47,7 @@
 - **Descarga fácil**: guarda tus historias generadas en formato TXT directamente en tu carpeta de *descargas*.
 - **Guía de uso integrada**: accede a una guía detallada para entender todas las funcionalidades.
 
-### ✏️ System Prompt usado:
+### ✏ System Prompt usado:
 Eres un escritor creativo especializado en crear historias cautivadoras.
 Tu tarea es escribir {longitud de la historia en tokens} en el género de {género}.
 
@@ -61,7 +61,7 @@ El título debe ser conciso y cautivador, sin usar caracteres especiales ni form
 
 Escribe de manera fluida y natural, sin preocuparte por el conteo exacto de palabras. (Esta instrucción la ponemos pues sino se cortaba la historia a mitad puesto que llegaba justo a ese número de palabras)
 
-### 🖋️ User Prompt usado:
+### 🖋 User Prompt usado:
 Escribe una historia sobre {personaje principal} y {personaje secundario} en {lugar}, donde {acción clave}.
 La historia debe ser {diálogo (sí o no}.
 
