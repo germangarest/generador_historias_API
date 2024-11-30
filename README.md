@@ -4,15 +4,15 @@
 ## Índice de Contenidos
 
 1. [📖 Descripción](#-1-descripción)  
-2. [Instalación](#2-instalación)  
-3. [Uso](#3-uso)  
-   - [Interfaz de Usuario](#interfaz-de-usuario)  
-   - [Capturas de Pantalla](#capturas-de-pantalla)  
-   - [Ejemplos de Historias Generadas](#ejemplos-de-historias-generadas)  
-4. [Configuración Avanzada](#4-configuración-avanzada)  
-5. [Licencia](#5-licencia)  
-6. [Contribuciones](#6-contribuciones)  
-7. [Contacto](#7-contacto)
+2. [🛠️ Instalación](#-2-instalación)  
+3. [🖥️ Uso](#-3-uso)  
+   - [💻 Interfaz de Usuario](#-interfaz-de-usuario)  
+   - [🖼️ Capturas de Pantalla](#-capturas-de-pantalla)  
+   - [✍️ Ejemplos de Historias Generadas](#-ejemplos-de-historias-generadas)  
+4. [🛠️ Configuración Avanzada](#-4-configuración-avanzada)  
+5. [📜 Licencia](#-5-licencia)  
+6. [🤝 Contribuciones](#-6-contribuciones)  
+7. [📫 Contacto](#-7-contacto)
    
 <br>
 
