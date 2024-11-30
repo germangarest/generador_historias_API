@@ -32,7 +32,7 @@
 
 **Generador de historias germangarest** es una aplicación web interactiva hecha con Gradio, que utiliza modelos de IA en local para crear historias únicas y cautivadoras. Con una interfaz amigable, permite a los usuarios personalizar personajes, escenarios, acciones clave y estilos narrativos para generar relatos adaptados a sus preferencias. Ideal para cualquier persona que busque inspiración creativa.
 
-___
+---
 
 ### 🚀 Características Principales
 
@@ -46,6 +46,8 @@ ___
 - **Incorporación de diálogos**: decide si deseas incluir conversaciones naturales entre los personajes.
 - **Descarga fácil**: guarda tus historias generadas en formato TXT directamente en tu carpeta de *descargas*.
 - **Guía de uso integrada**: accede a una guía detallada para entender todas las funcionalidades.
+
+---
 
 ### ✏ System Prompt usado:
 Eres un escritor creativo especializado en crear historias cautivadoras.
@@ -61,6 +63,8 @@ El título debe ser conciso y cautivador, sin usar caracteres especiales ni form
 
 Escribe de manera fluida y natural, sin preocuparte por el conteo exacto de palabras. (Esta instrucción la ponemos pues sino se cortaba la historia a mitad puesto que llegaba justo a ese número de palabras)
 
+---
+
 ### 🖋 User Prompt usado:
 Escribe una historia sobre {personaje principal} y {personaje secundario} en {lugar}, donde {acción clave}.
 La historia debe ser {diálogo (sí o no}.
@@ -75,12 +79,16 @@ El formato debe ser así:
 
 [Contenido de la historia...]
 
+---
+
 ### 🆙 Botón de descarga:
 Con cada historia generada, aparece una opción de descargar la historia, guardándose en formato .txt en la carpeta *Descargas*.
 
 ![Descarga](assets/descarga.png)
 
 <br>
+
+---
 
 ## 🛠 2. Instalación
 
@@ -130,6 +138,8 @@ Con cada historia generada, aparece una opción de descargar la historia, guard�
    
 <br>
 
+---
+
 ## 🖥 3. Uso
 
 ### 💻 Interfaz de usuario
@@ -142,6 +152,8 @@ La interfaz de **Generador de historias germangarest** está dividida en dos pes
 ![Pestañas](assets/pestañas.png)
   
 <br>
+
+---
 
 ### ✍ Crear historia
 
@@ -190,6 +202,7 @@ Accede a una guía detallada sobre cómo utilizar la aplicación, incluyendo exp
 
 <br>
 
+---
 
 ## ✍ 4. Ejemplos de historias generadas
 
@@ -207,6 +220,8 @@ Voy a usar cada uno de los 4 modelos para generar una misma historia. Así, podr
 - **Configuración avanzada:** se deja por defecto
 
 ![Ejemplo](assets/ejemplo.png)
+
+---
 
 ### 🛠 Modelos utilizados
 
@@ -238,6 +253,8 @@ Voy a usar cada uno de los 4 modelos para generar una misma historia. Así, podr
 - **Palabras:** 257
 - **Párrafos:** 7
 
+---
+
 ### 🏆 Mejor historia
 
 En mi opinión, la mejor historia es la generada por **Ministral 8B**, dado que aunque la extensión es mayor, no se queda corta de caracteres y además es una historia bastante cautivadora.
@@ -245,6 +262,8 @@ En mi opinión, la mejor historia es la generada por **Ministral 8B**, dado que 
 Voy a pedirle opinión a **ChatGPT o1-mini**, con el siguiente prompt:
 
 ![ChatGPT](assets/chatgpt.png)
+
+---
 
 #### 💬 Respuestas de ChatGPT para cada modelo
 
@@ -264,6 +283,8 @@ Voy a pedirle opinión a **ChatGPT o1-mini**, con el siguiente prompt:
 
 ![QwenGPT](assets/qwengpt.png)
 
+---
+
 #### 📜 Conclusión
 
 ![Conclusion](assets/conclusion.png)
@@ -273,6 +294,8 @@ Dado que tanto ChatGPT como yo coincidimos en el mejor modelo para generar una h
 ![Winner](assets/ministralwinner.png)
 
 <br>
+
+---
 
 ## 🛠 5. Configuración avanzada y creatividad
 
@@ -296,11 +319,15 @@ Puedes personalizar aún más la generación de historias utilizando los control
 
 <br>
 
+---
+
 ## 📜 6. Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
 <br>
+
+---
 
 ## 🤝 7. Contribuciones
 
@@ -313,6 +340,8 @@ Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENS
 5. **Abre un Pull Request**.
    
 <br>
+
+---
 
 ## 📫 8. Contacto
 
