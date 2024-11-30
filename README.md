@@ -248,7 +248,7 @@ Voy a pedirle opinión a **ChatGPT o1-mini**, con el siguiente prompt:
 
 ##### Modelo Qwen2.5 7B
 
-![QwenGPT](assets/qwengpt/qwen.png)
+![QwenGPT](assets/qwengpt.png)
 
 #### 📜 Conclusión
 
