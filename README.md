@@ -3,8 +3,6 @@
 
 ## Índice de Contenidos
 
-## Índice de Contenidos
-
 1. [📖 Descripción](#-1-descripción)
    - [🚀 Características Principales](#-características-principales)
    - [✏️ System Prompt usado](#-system-prompt-usado)
