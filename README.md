@@ -130,26 +130,26 @@ Con cada historia generada, aparece una opción de descargar la historia, guard�
    
 <br>
 
-## 🖥️ 3. Uso
+## 🖥 3. Uso
 
 ### 💻 Interfaz de usuario
 
 La interfaz de **Generador de historias germangarest** está dividida en dos pestañas principales:
 
-- **✍️ Crear historia**
-- **ℹ️ Guía de uso**
+- **✍ Crear historia**
+- **ℹ Guía de uso**
 
 ![Pestañas](assets/pestañas.png)
   
 <br>
 
-### ✍️ Crear historia
+### ✍ Crear historia
 
 Aquí puedes personalizar y generar tus historias. A continuación se describen los componentes principales:
 
 - **👥 Personajes**
   - **🌟 Personaje principal**: nombre del protagonista (Por defecto: Germán).
-  - **👤 Personaje secundario**: nombre del acompañante (Por defecto: Carlos).
+  - **👤¡ Personaje secundario**: nombre del acompañante (Por defecto: Carlos).
 
 - **📍 Lugar y 🎯 acción clave**
   - **📍 Lugar**: escenario donde transcurre la historia (Por defecto: una playa desierta).
@@ -160,12 +160,12 @@ Aquí puedes personalizar y generar tus historias. A continuación se describen 
 - **🎨 Estilo de la historia**
   - **🤖 Modelo de IA**: selecciona el modelo de lenguaje.
   - **📚 Género**: elige el género de la historia.
-  - **🌡️ Temperatura (creatividad)**: controla la creatividad del texto.
+  - **🌡 Temperatura (creatividad)**: controla la creatividad del texto.
   - **📏 Longitud**: define la extensión de la historia.
  
 ![Estilo](assets/estilo.png)
 
-- **⚙️ Configuración avanzada**
+- **⚙ Configuración avanzada**
   - **💬 Incluir diálogos**: decide si incluir conversaciones.
   - **🎲 Diversidad (Top-P)**: variedad del vocabulario.
   - **🔄 Penalización de repetición**: evita repeticiones en el texto.
@@ -180,7 +180,7 @@ Aquí puedes personalizar y generar tus historias. A continuación se describen 
     
 <br>
 
-### ℹ️ Guía de uso
+### ℹ Guía de uso
 
 Accede a una guía detallada sobre cómo utilizar la aplicación, incluyendo explicaciones de cada parámetro y consejos para obtener mejores resultados.
 
@@ -189,7 +189,7 @@ Accede a una guía detallada sobre cómo utilizar la aplicación, incluyendo exp
 <br>
 
 
-## ✍️ 4. Ejemplos de historias generadas
+## ✍ 4. Ejemplos de historias generadas
 
 Voy a usar cada uno de los 4 modelos para generar una misma historia. Así, podré elegir cuál de los 4 modelos se comporta de mejor manera en la generación de historias con esos parámetros.
 
@@ -206,7 +206,7 @@ Voy a usar cada uno de los 4 modelos para generar una misma historia. Así, podr
 
 ![Ejemplo](assets/ejemplo.png)
 
-### 🛠️ Modelos utilizados
+### 🛠 Modelos utilizados
 
 #### 1. Modelo Ministral 8B Instruct
 
@@ -244,7 +244,7 @@ Voy a pedirle opinión a **ChatGPT o1-mini**, con el siguiente prompt:
 
 ![ChatGPT](assets/chatgpt.png)
 
-#### 💬 Respuestas de ChatGPT para cada modelo
+#### 💬Respuestas de ChatGPT para cada modelo
 
 ##### Modelo Ministral 8B Instruct
 
@@ -272,7 +272,7 @@ Dado que tanto ChatGPT como yo coincidimos en el mejor modelo para generar una h
 
 <br>
 
-## 🛠️ 5. Configuración avanzada y creatividad
+## 🛠 5. Configuración avanzada y creatividad
 
 Puedes personalizar aún más la generación de historias utilizando los controles avanzados. Para ello, voy a mostrar unas historias de ejemplo con el modelo Ministral, pues fue el ganador:
 
