@@ -32,6 +32,8 @@
 
 **Generador de historias germangarest** es una aplicación web interactiva hecha con Gradio, que utiliza modelos de IA en local para crear historias únicas y cautivadoras. Con una interfaz amigable, permite a los usuarios personalizar personajes, escenarios, acciones clave y estilos narrativos para generar relatos adaptados a sus preferencias. Ideal para cualquier persona que busque inspiración creativa.
 
+---
+
 ### 🚀 Características Principales
 
 - **Modelos de IA variados**: selecciona entre 4 modelos de IA generativa: 
