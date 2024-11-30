@@ -3,15 +3,30 @@
 
 ## Índice de Contenidos
 
-1. [📖 Descripción](#-1-descripción)  
-2. [🛠️ Instalación](#-2-instalación)  
-3. [🖥️ Uso](#-3-uso)  
-   - [💻 Interfaz de Usuario](#-interfaz-de-usuario)   
-   - [✍️ Ejemplos de Historias Generadas](#-ejemplos-de-historias-generadas)  
-4. [🛠️ Configuración Avanzada](#-4-configuración-avanzada)  
-5. [📜 Licencia](#-5-licencia)  
-6. [🤝 Contribuciones](#-6-contribuciones)  
-7. [📫 Contacto](#-7-contacto)
+## Índice de Contenidos
+
+1. [📖 Descripción](#1-descripción)
+   - [🚀 Características Principales](#características-principales)
+   - [✏️ System Prompt usado](#system-prompt-usado)
+   - [🖋️ User Prompt usado](#user-prompt-usado)
+   - [🆙 Botón de descarga](#botón-de-descarga)
+2. [🛠️ Instalación](#2-instalación)
+   - [Requisitos previos](#requisitos-previos)
+   - [Pasos de instalación](#pasos-de-instalación)
+3. [🖥️ Uso](#3-uso)
+   - [💻 Interfaz de usuario](#interfaz-de-usuario)
+   - [✍️ Crear historia](#crear-historia)
+   - [ℹ️ Guía de uso](#guía-de-uso)
+4. [✍️ Ejemplos de historias generadas](#ejemplos-de-historias-generadas)
+   - [📋 Parámetros de generación](#parámetros-de-generación)
+   - [🛠️ Modelos utilizados](#modelos-utilizados)
+   - [🏆 Mejor historia](#mejor-historia)
+     - [💬 Respuestas de ChatGPT para cada modelo](#respuestas-de-chatgpt-para-cada-modelo)
+     - [📜 Conclusión](#conclusión)
+5. [🛠️ Configuración avanzada y creatividad](#4-configuración-avanzada-y-creatividad)
+6. [📜 Licencia](#5-licencia)
+7. [🤝 Contribuciones](#6-contribuciones)
+8. [📫 Contacto](#7-contacto)
    
 <br>
 
@@ -46,8 +61,6 @@ El título debe ser conciso y cautivador, sin usar caracteres especiales ni form
 
 Escribe de manera fluida y natural, sin preocuparte por el conteo exacto de palabras. (Esta instrucción la ponemos pues sino se cortaba la historia a mitad puesto que llegaba justo a ese número de palabras)
 
-<br>
-
 ### 🖋️ User Prompt usado:
 Escribe una historia sobre {personaje principal} y {personaje secundario} en {lugar}, donde {acción clave}.
 La historia debe ser {diálogo (sí o no}.
@@ -61,8 +74,6 @@ El formato debe ser así:
 [Título de la historia]
 
 [Contenido de la historia...]
-  
-<br>
 
 ### 🆙 Botón de descarga:
 Con cada historia generada, aparece una opción de descargar la historia, guardándose en formato .txt en la carpeta *Descargas*.
@@ -178,7 +189,7 @@ Accede a una guía detallada sobre cómo utilizar la aplicación, incluyendo exp
 <br>
 
 
-## ✍️ Ejemplos de historias generadas
+## ✍️ 4. Ejemplos de historias generadas
 
 Voy a usar cada uno de los 4 modelos para generar una misma historia. Así, podré elegir cuál de los 4 modelos se comporta de mejor manera en la generación de historias con esos parámetros.
 
@@ -261,7 +272,7 @@ Dado que tanto ChatGPT como yo coincidimos en el mejor modelo para generar una h
 
 <br>
 
-## 🛠️ 4. Configuración avanzada y creatividad
+## 🛠️ 5. Configuración avanzada y creatividad
 
 Puedes personalizar aún más la generación de historias utilizando los controles avanzados. Para ello, voy a mostrar unas historias de ejemplo con el modelo Ministral, pues fue el ganador:
 
@@ -283,13 +294,13 @@ Puedes personalizar aún más la generación de historias utilizando los control
 
 <br>
 
-## 📜 5. Licencia
+## 📜 6. Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
 <br>
 
-## 🤝 6. Contribuciones
+## 🤝 7. Contribuciones
 
 ¡Las contribuciones son bienvenidas! Si deseas mejorar este proyecto, por favor sigue estos pasos:
 
@@ -301,6 +312,6 @@ Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENS
    
 <br>
 
-## 📫 7. Contacto
+## 📫 8. Contacto
 
 Si tienes alguna pregunta o sugerencia, no dudes en contactarme directamente a mi [LinkedIn](https://www.linkedin.com/in/germangarest)🧑‍💼.
