@@ -12,7 +12,8 @@
 4. [Configuración Avanzada](#-configuración-avanzada)
 5. [Licencia](#-licencia)
 6. [Contribuciones](#-contribuciones)
-7. [Contacto](#-contacto) 
+7. [Contacto](#-contacto)
+   
 <br>
 
 ## 📖 1. Descripción
@@ -27,8 +28,8 @@
 - **Incorporación de Diálogos**: Decide si deseas incluir conversaciones naturales entre los personajes.
 - **Descarga Fácil**: Guarda tus historias generadas en formato TXT directamente en tu carpeta de Descargas.
 - **Guía de Uso Integrada**: Accede a una guía detallada para aprovechar al máximo todas las funcionalidades.
+  
 <br>
-
 
 ## 🛠️ 2. Instalación
 
@@ -75,8 +76,8 @@
 6. **Accede a la Aplicación**
     
    Abre tu navegador y visita ```http://localhost:5000``` para comenzar a generar tus historias.
+   
 <br>
-
 
 ## 🖥️ 3. Uso
 
@@ -86,6 +87,7 @@ La interfaz de **Generador de Historias Germangarest** está dividida en dos pes
 
 - **✍️ Crear Historia**
 - **ℹ️ Guía de Uso**
+  
 <br>
 
 ### ✍️ Crear Historia
@@ -113,14 +115,15 @@ Aquí puedes personalizar y generar tus historias. A continuación se describen 
 
 - **Botones y Salidas**
   - **✨ Generar Historia ✨**: Inicia la generación.
-  - **📥 Descargar historia**: Descarga la historia generada en formato TXT.    
+  - **📥 Descargar historia**: Descarga la historia generada en formato TXT.
+    
 <br>
 
 ### ℹ️ Guía de Uso
 
 Accede a una guía detallada sobre cómo utilizar la aplicación, incluyendo explicaciones de cada parámetro y consejos para obtener mejores resultados.
 **captura de pantalla**
-<br>
+
 <br>
 
 ### 🖼️ Capturas de Pantalla
@@ -136,6 +139,7 @@ Accede a una guía detallada sobre cómo utilizar la aplicación, incluyendo exp
 #### Historia Generada
 
 ![Historia Generada](assets/story_output.png)
+
 <br>
 
 ## ✍️ Ejemplos de Historias Generadas
@@ -151,8 +155,8 @@ En una playa desierta, Germán se preparaba para su rutina diaria de surf. El so
 **Título: El Secreto del Relojero**
 
 Germán, un detective novato, llegó a la antigua tienda de relojes de la ciudad. El dueño, un hombre de aspecto misterioso llamado Carlos, le pidió ayuda para resolver una serie de desapariciones recientes. Cada víctima había sido vista por última vez cerca de la tienda. Germán comenzó a investigar y descubrió un compartimento secreto detrás de uno de los relojes. Dentro, encontró diarios antiguos que hablaban de un tesoro escondido y de rituales oscuros realizados por el relojero. Con esta información, Germán desentrañó la verdad detrás de las desapariciones y logró detener al culpable, revelando el secreto que Carlos había guardado durante décadas.
-<br>
 
+<br>
 
 ## 🛠️ 4. Configuración Avanzada
 
@@ -171,14 +175,14 @@ Puedes personalizar aún más la generación de historias utilizando los control
 #### Historia con Diálogos
 
 ![Historia con Diálogos](assets/story_with_dialogues.png)
-<br>
 
+<br>
 
 ## 📜 5. Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
-<br>
 
+<br>
 
 ## 🤝 6. Contribuciones
 
@@ -189,8 +193,8 @@ Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENS
 3. **Commit** tus cambios (`git commit -m 'Añadir nueva característica'`).
 4. **Push** a la rama (`git push origin feature/nueva-caracteristica`).
 5. **Abre un Pull Request**.
+   
 <br>
-
 
 ## 📫 7. Contacto
 
