@@ -21,13 +21,53 @@
 
 ### 🚀 Características Principales
 
-- **Modelos de IA variados**: selecciona entre múltiples modelos para adaptar el estilo y la coherencia de la historia.
+- **Modelos de IA variados**: selecciona entre 4 modelos de IA generativa: 
+    Ministral 8B Instruct
+    Gemma 2 9B
+    Meta Llama 3.1 8B
+    Qwen2.5 7B
 - **Controles creativos**: ajusta parámetros como la temperatura, diversidad (Top-P) y penalización de repetición para personalizar la generación.
 - **Longitud personalizable**: elige entre historias cortas, medias o largas según tus necesidades.
 - **Incorporación de diálogos**: decide si deseas incluir conversaciones naturales entre los personajes.
 - **Descarga fácil**: guarda tus historias generadas en formato TXT directamente en tu carpeta de *descargas*.
 - **Guía de uso integrada**: accede a una guía detallada para entender todas las funcionalidades.
+
+### ✏️ System Prompt usado:
+Eres un escritor creativo especializado en crear historias cautivadoras.
+Tu tarea es escribir {longitud de la historia en tokens} en el género de {género}.
+
+Ajusta tu estilo según estos parámetros:
+- Creatividad: {temperatura} (0=conservador, 1=muy creativo)
+- Diversidad de vocabulario: {diversidad} (mayor valor = vocabulario más rico)
+- Repetición: {repetición} (mayor valor = menos repeticiones)
+
+La historia debe tener un título atractivo en la primera línea, separado del contenido por una línea en blanco.
+El título debe ser conciso y cautivador, sin usar caracteres especiales ni formatos.
+
+Escribe de manera fluida y natural, sin preocuparte por el conteo exacto de palabras. (Esta instrucción la ponemos pues sino se cortaba la historia a mitad puesto que llegaba justo a ese número de palabras)
+
+<br>
+
+### 🖋️ User Prompt usado:
+Escribe una historia sobre {personaje principal} y {personaje secundario} en {lugar}, donde {acción clave}.
+La historia debe ser {diálogo (sí o no}.
+
+Con creatividad {temperatura}:
+- Si es bajo (0-0.3): mantén la narrativa más predecible y coherente
+- Si es medio (0.4-0.7): equilibra creatividad con coherencia
+- Si es alto (0.8-1.0): sé más experimental y único
+
+El formato debe ser así:
+[Título de la historia]
+
+[Contenido de la historia...]
   
+<br>
+
+### 🆙 Botón de descarga:
+Con cada historia generada, aparece una opción de descargar la historia, guardándose en formato .txt en la carpeta *Descargas*.
+![Descarga](assets/descarga.png)
+
 <br>
 
 ## 🛠️ 2. Instalación
@@ -137,39 +177,108 @@ Accede a una guía detallada sobre cómo utilizar la aplicación, incluyendo exp
 <br>
 
 
-## ✍️ Ejemplos de Historias Generadas
+## ✍️ Ejemplos de historias generadas
 
-### Ejemplo 1: Aventura en la Playa
+Voy a usar cada uno de los 4 modelos para generar una misma historia. Así, podré elegir cuál de los 4 modelos se comporta de mejor manera en la generación de historias con esos parámetros.
 
-**Título: La Ola Perfecta**
+### 📋 Parámetros de generación
 
-En una playa desierta, Germán se preparaba para su rutina diaria de surf. El sol brillaba intensamente, reflejándose en las olas cristalinas. Carlos, su mejor amigo, lo acompañaba para observar su progreso. De repente, una ola gigantesca emergió en el horizonte, más grande que cualquier otra que habían visto antes. Germán sintió una mezcla de emoción y nerviosismo. Decidió enfrentarse al desafío, remando con todas sus fuerzas hacia la ola perfecta. Con una habilidad impresionante, logró montar la ola desde el inicio hasta el final, sintiendo una euforia indescriptible. Al final del día, ambos amigos celebraron la hazaña, sabiendo que habían vivido una experiencia inolvidable.
+- **Personaje principal:** Juan
+- **Personaje secundario:** Álvaro
+- **Lugar:** supermercado
+- **Acción clave:** comprar en invierno
+- **Género:** misterio
+- **Temperatura:** 0.5
+- **Longitud:** corta (aprox. 250 palabras)
+- **Configuración avanzada:** se deja por defecto
 
-### Ejemplo 2: Misterio en la Ciudad
+![Ejemplo](assets/ejemplo.png)
 
-**Título: El Secreto del Relojero**
+### 🛠️ Modelos utilizados
 
-Germán, un detective novato, llegó a la antigua tienda de relojes de la ciudad. El dueño, un hombre de aspecto misterioso llamado Carlos, le pidió ayuda para resolver una serie de desapariciones recientes. Cada víctima había sido vista por última vez cerca de la tienda. Germán comenzó a investigar y descubrió un compartimento secreto detrás de uno de los relojes. Dentro, encontró diarios antiguos que hablaban de un tesoro escondido y de rituales oscuros realizados por el relojero. Con esta información, Germán desentrañó la verdad detrás de las desapariciones y logró detener al culpable, revelando el secreto que Carlos había guardado durante décadas.
+#### 1. Modelo Ministral 8B Instruct
+
+![Ministral](assets/ministral.png)
+
+- **Palabras:** 338
+- **Párrafos:** 8
+
+#### 2. Modelo Gemma 2 9B
+
+![Gemma](assets/gemma.png)
+
+- **Palabras:** 191
+- **Párrafos:** 6
+
+#### 3. Modelo Meta Llama 3.1 8B
+
+![Llama](assets/llama.png)
+
+- **Palabras:** 240
+- **Párrafos:** 6
+
+#### 4. Modelo Qwen2.5 7B
+
+![Qwen](assets/qwen.png)
+
+- **Palabras:** 257
+- **Párrafos:** 7
+
+### 🏆 Mejor historia
+
+En mi opinión, la mejor historia es la generada por **Ministral 8B**, dado que aunque la extensión es mayor, no se queda corta de caracteres y además es una historia bastante cautivadora.
+
+Voy a pedirle opinión a **ChatGPT o1-mini**, con el siguiente prompt:
+
+![ChatGPT](assets/chatgpt.png)
+
+#### 💬 Respuestas de ChatGPT para cada modelo
+
+##### Modelo Ministral 8B Instruct
+
+![MinistralGPT](assets/ministralgpt.png)
+
+##### Modelo Gemma 2 9B
+
+![GemmaGPT](assets/gemmagpt.png)
+
+##### Modelo Meta Llama 3.1 8B
+
+![LlamaGPT](assets/llamagpt.png)
+
+##### Modelo Qwen2.5 7B
+
+![QwenGPT](assets/qwengpt/qwen.png)
+
+#### 📜 Conclusión
+
+![Conclusion](assets/conclusion.png)
+
+Dado que tanto ChatGPT como yo coincidimos en el mejor modelo para generar una historia de estas características, el ganador resulta ser:
+
+![Winner](assets/ministralwinner.png)
 
 <br>
 
-## 🛠️ 4. Configuración Avanzada
+## 🛠️ 4. Configuración avanzada y creatividad
 
-Puedes personalizar aún más la generación de historias utilizando los controles avanzados:
+Puedes personalizar aún más la generación de historias utilizando los controles avanzados. Para ello, voy a mostrar unas historias de ejemplo con el modelo Ministral, pues fue el ganador:
 
-- **Incluir Diálogos**: Activa esta opción para que los personajes interactúen mediante conversaciones naturales.
-- **Diversidad (Top-P)**: Ajusta este parámetro para controlar la variedad léxica. Valores más altos generan un vocabulario más rico.
-- **Penalización de Repetición**: Incrementa este valor para evitar que la IA repita frases o palabras.
+- **Incluir diálogos**: activa esta opción para que los personajes interactúen mediante conversaciones naturales.
 
-### 📷 Capturas de Pantalla
+![Dialogos](assets/dialogos.png)
 
-#### Interfaz de Generación
+- **Diversidad (Top-P)**: ajusta este parámetro para controlar la variedad léxica. Valores más altos generan un vocabulario más rico.
 
-![Interfaz de Generación](assets/interface_generation.png)
+![Diversidad](assets/diversidad.png)
+  
+- **Penalización de repetición**: incrementa este valor para evitar que la IA repita frases o palabras.
 
-#### Historia con Diálogos
+![Repeticion](assets/repeticion.png)
 
-![Historia con Diálogos](assets/story_with_dialogues.png)
+- **Creatividad**: probamos con un valor de 1 en la temperatura.
+
+![Creatividad](assets/creatividad.png)
 
 <br>
 
