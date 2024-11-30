@@ -194,6 +194,8 @@ Interfaz de la aplicación web Gradio:
     
 <br>
 
+---
+
 ### 📓 Guía de uso
 
 Accede a una guía detallada sobre cómo utilizar la aplicación, incluyendo explicaciones de cada parámetro y consejos para obtener mejores resultados.
